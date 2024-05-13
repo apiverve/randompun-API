@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/randompun",
+  "version": "1.0.0",
+  "description": "Random Pun is a simple tool for getting random puns. It returns a random pun from a collection of puns.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/randompun-API.git"
+  },
+  "keywords": [
+    "random pun"," random pun api"," random pun tool"," random pun software"," random pun service"," random pun library"," random pun sdk"," random pun code"," random pun script"," random pun program"," random pun application"," random pun app"," random pun utility"," random pun helper"," random pun helper tool"," random pun helper software"," random pun helper service"," random pun helper library"," random pun helper sdk"," random pun helper code"," random pun helper script"," random pun helper program"," random pun helper application"," random pun helper app"," random pun helper tool"," random pun helper utility"," random pun helper"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/randompun-API/issues"
+  },
+  "homepage": "https://github.com/apiverve/randompun-API",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "dotenv": "^2.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "3.3.2",
+    "promise": "^7.1.1",
+    "request": "^2.69.0"
+  }
+}
