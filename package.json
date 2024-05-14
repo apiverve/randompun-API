@@ -11,7 +11,7 @@
     "url": "git+https://github.com/apiverve/randompun-API.git"
   },
   "keywords": [
-    "random pun"," random pun api"," random pun tool"," random pun software"," random pun service"," random pun library"," random pun sdk"," random pun code"," random pun script"," random pun program"," random pun application"," random pun app"," random pun utility"," random pun helper"," random pun helper tool"," random pun helper software"," random pun helper service"," random pun helper library"," random pun helper sdk"," random pun helper code"," random pun helper script"," random pun helper program"," random pun helper application"," random pun helper app"," random pun helper tool"," random pun helper utility"," random pun helper"
+    "random pun","random pun api","random pun tool","random pun software","random pun service"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
@@ -27,6 +27,6 @@
   "dependencies": {
     "node-fetch": "3.3.2",
     "promise": "^7.1.1",
-    "request": "^2.69.0"
+    "axios": "^0.15.3"
   }
 }
