@@ -69,9 +69,9 @@ api.execute(function (error, data) {
   "status": "ok",
   "error": null,
   "data": {
-    "category": "Farmers",
+    "category": "Heaven and Hell",
     "rating": 4,
-    "pun": "A young man from the city went to visit his farmer uncle. For the first few days, the uncle showed him the usual things - chickens, cows, crops, etc. After three days, however, it was obvious that the nephew was getting bored, and the uncle was running out of things to amuse him with. Finally, the uncle decided to give them a real treat. 'Why don't you grab a gun, take my prized hunting dogs, and go have some fun shooting?' This seemed to cheer the nephew up, and with enthusiasm, off he went, dogs in trail. After a few hours, the nephew returned. 'How did you enjoy that?' asked the uncle. 'It was great!' exclaimed the nephew. 'Got any more dogs?'"
+    "pun": "The Reverend Francis Norton woke up Sunday morning and realizing it was an exceptionally beautiful and sunny early spring day, decided he just had to play golf. So... he told the Associate Pastor that he was feeling sick and convinced him to say Mass for him that day.As soon as the Associate Pastor left the room, Father Norton headed out of town to a golf course about forty miles away. This way he knew he wouldn't accidentally meet anyone he knew from his parish. Setting up on the first tee, he was alone. After all, it was Sunday morning and everyone else was in church!At about this time, Saint Peter leaned over to the Lord while looking down from the heavens and exclaimed, 'You're not going to let him get away with this, are you?'The Lord sighed, and said, 'No, I guess not.'Just then Father Norton hit the ball and it shot straight towards the pin, dropping just short of it, rolled up and fell into the hole. It WAS A 420 YARD HOLE IN ONE!St. Peter was astonished. He looked at the Lord and asked, 'Why did you let him do that?'The Lord smiled and replied, 'Who's he going to tell?'"
   }
 }
 ```
