@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/randompun",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Random Pun is a simple tool for getting random puns. It returns a random pun from a collection of puns.",
   "main": "index.js",
   "scripts": {
