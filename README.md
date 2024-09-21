@@ -69,9 +69,9 @@ api.execute(function (error, data) {
   "status": "ok",
   "error": null,
   "data": {
-    "category": "Crazy Jokes",
-    "rating": 2.67,
-    "pun": "Some members of a health club were having their first meeting. The director of the group said, 'Now, I'd like each of you to give the facts of your daily routine.'  Several people spoke, admitting their excesses, and then one obviously overweight member said, 'I eat moderately, I drink moderately, and I exercise frequently.'  'Hmm?' said the manager. 'And are you sure there is nothing you over-indulge in?'  'Well,' said the man, 'I lie extensively.'"
+    "category": "Insults",
+    "rating": 2,
+    "pun": "The overwhelming power of the sex drive was demonstrated by the fact that someone was willing to father you."
   },
   "code": 200
 }
