@@ -1,5 +1,4 @@
-Random Pun API
-============
+# Random Pun API
 
 Random Pun is a simple tool for getting random puns. It returns a random pun from a collection of puns.
 
@@ -7,52 +6,60 @@ Random Pun is a simple tool for getting random puns. It returns a random pun fro
 ![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
 ![Prod Ready](https://img.shields.io/badge/production-ready-blue)
 
-This is a Javascript Wrapper for the [Random Pun API](https://apiverve.com/marketplace/api/randompun)
+This is a Javascript Wrapper for the [Random Pun API](https://apiverve.com/marketplace/randompun)
 
 ---
 
 ## Installation
-	npm install @apiverve/randompun --save
+
+Using npm:
+```shell
+npm install @apiverve/randompun
+```
+
+Using yarn:
+```shell
+yarn add @apiverve/randompun
+```
 
 ---
 
 ## Configuration
 
-Before using the randompun API client, you have to setup your account and obtain your API Key.  
+Before using the Random Pun API client, you have to setup your account and obtain your API Key.
 You can get it by signing up at [https://apiverve.com](https://apiverve.com)
 
 ---
 
-## Usage
+## Quick Start
 
-The Random Pun API documentation is found here: [https://docs.apiverve.com/api/randompun](https://docs.apiverve.com/api/randompun).  
+[Get started with the Quick Start Guide](https://docs.apiverve.com/quickstart)
+
+The Random Pun API documentation is found here: [https://docs.apiverve.com/ref/randompun](https://docs.apiverve.com/ref/randompun).
 You can find parameters, example responses, and status codes documented here.
 
 ### Setup
 
-```
-var randompunAPI = require('@apiverve/randompun');
-var api = new randompunAPI({
-    api_key: [YOUR_API_KEY],
-    secure: true //(Optional, defaults to true)
+```javascript
+const randompunAPI = require('@apiverve/randompun');
+const api = new randompunAPI({
+    api_key: '[YOUR_API_KEY]'
 });
 ```
 
 ---
 
+## Usage
+
+---
 
 ### Perform Request
-Using the API client, you can perform requests to the API.
 
-###### Define Query
+Using the API is simple. All you have to do is make a request. The API will return a response with the data you requested.
 
-```
-This API does not require a Query
-```
+```javascript
+// This API does not require a Query
 
-###### Simple Request (using Callback)
-
-```
 api.execute(function (error, data) {
     if (error) {
         return console.error(error);
@@ -62,9 +69,48 @@ api.execute(function (error, data) {
 });
 ```
 
-###### Example Response
+---
 
+### Using Promises
+
+You can also use promises to make requests. The API returns a promise that you can use to handle the response.
+
+```javascript
+// This API does not require a Query
+
+api.execute(query)
+    .then(data => {
+        console.log(data);
+    })
+    .catch(error => {
+        console.error(error);
+    });
 ```
+
+---
+
+### Using Async/Await
+
+You can also use async/await to make requests. The API returns a promise that you can use to handle the response.
+
+```javascript
+async function makeRequest() {
+    // This API does not require a Query
+
+    try {
+        const data = await api.execute(query);
+        console.log(data);
+    } catch (error) {
+        console.error(error);
+    }
+}
+```
+
+---
+
+## Example Response
+
+```json
 {
   "status": "ok",
   "error": null,
@@ -72,8 +118,7 @@ api.execute(function (error, data) {
     "category": "Miscellaneous",
     "rating": 3,
     "pun": "If someone with multiple personalities threatens to kill himself, is it considered a hostage situation?"
-  },
-  "code": 200
+  }
 }
 ```
 
@@ -86,6 +131,7 @@ Need any assistance? [Get in touch with Customer Support](https://apiverve.com/c
 ---
 
 ## Updates
+
 Stay up to date by following [@apiverveHQ](https://twitter.com/apiverveHQ) on Twitter.
 
 ---
